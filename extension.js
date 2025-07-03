@@ -2,8 +2,8 @@ const vscode = require('vscode');
 const axios = require('axios');
 const cheerio = require('cheerio');
 const esprima = require('esprima');
-const { getSearchHtml } = require('./ui/getSearchHtml');
-const { getPostHtml } = require('./ui/getPostHtml');
+const { getSearchHtml } = require('./getSearchHtml');
+const { getPostHtml } = require('./getPostHtml');
 
 const languageMap = {
     javascript: { search: 'JavaScript', prism: 'javascript' },
